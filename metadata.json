@@ -1,0 +1,6 @@
+{
+  "name": "Spa Linh Đan - Sanctuary & Beauty Clinic",
+  "description": "Thánh đường chăm sóc sắc đẹp chuẩn y khoa kết hợp triết lý thư giãn an yên tại Ninh Bình. Khởi đầu hành trình đánh thức vẻ đẹp thuần khiết và tái sinh năng lượng thân - tâm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

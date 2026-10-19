@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, Cambria, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-canvas: #FFF8F6;
+  --color-canvas-soft: #FAF2EE;
+  --color-surface-dim: #E6D7D2;
+  --color-surface-container: #FAEDE8;
+  --color-surface-card: #FFFFFF;
+  --color-jade: #27443B;
+  --color-jade-deep: #1A3029;
+  --color-jade-light: #3E5C52;
+  --color-gold: #C5A880;
+  --color-gold-dark: #725B38;
+  --color-gold-soft: #F4E8D8;
+  --color-espresso: #211A17;
+  --color-espresso-muted: #594E4A;
+  --color-border-delicate: rgba(197, 168, 128, 0.25);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-canvas);
+  color: var(--color-espresso);
+  overflow-x: hidden;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Glassmorphism card utility */
+.sanctuary-card {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(197, 168, 128, 0.28);
+}
+
+.sanctuary-card-hover {
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.sanctuary-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px -10px rgba(39, 68, 59, 0.12), 0 4px 12px -2px rgba(197, 168, 128, 0.16);
+  border-color: rgba(197, 168, 128, 0.55);
+}
